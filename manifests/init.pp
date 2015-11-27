@@ -519,6 +519,7 @@ class graphite (
   $gr_log_cache_performance              = 'False',
   $gr_log_rendering_performance          = 'False',
   $gr_log_metric_access                  = 'False',
+  $manage_python                         = true,
   $python_provider                       = 'system',
 ) inherits graphite::params {
   # Validation of input variables.
